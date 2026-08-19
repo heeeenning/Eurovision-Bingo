@@ -1,116 +1,58 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Language Selector</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f7fb;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .container {
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      width: 100%;
-      max-width: 420px;
-    }
-
-    h1 {
-      margin-top: 0;
-      font-size: 1.6rem;
-      color: #222;
-    }
-
-    label {
-      display: block;
-      margin: 1rem 0 0.4rem;
-      font-weight: bold;
-      color: #333;
-    }
-
-    input, select, button {
-      width: 100%;
-      padding: 0.8rem;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 1rem;
-      box-sizing: border-box;
-    }
-
-    button {
-      margin-top: 1.2rem;
-      background: #0057b8;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    button:hover {
-      background: #004494;
-    }
-
-    .output {
-      margin-top: 1.5rem;
-      padding: 1rem;
-      background: #eef4ff;
-      border-left: 4px solid #0057b8;
-      border-radius: 8px;
-      color: #1f2d3d;
-      min-height: 1.5rem;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eurovision Bingo — Pick your prompts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome</h1>
+<div id="app">
 
-    <form id="myForm">
-      <label for="name">Your name</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+  <header>
+    <div class="wrap">
+      <p class="eyebrow" id="pageEyebrow"></p>
+      <div class="title-row">
+        <h1 id="pageTitle"></h1>
+        <div class="lang-toggle">
+          <button type="button" data-lang="de" class="active">DE</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
 
-      <label for="language">Choose a language</label>
-      <select id="language" name="language" required>
-        <option value="">-- Select a language --</option>
-        <option value="English">English</option>
-        <option value="Deutsch">Deutsch</option>
-        <option value="Français">Français</option>
-        <option value="Español">Español</option>
-        <option value="Italiano">Italiano</option>
-      </select>
+      <div class="scoreboard">
+        <div class="scoreboard-top">
+          <span class="scoreboard-label" id="scoreboardLabel"></span>
+          <span class="scoreboard-count" id="scoreboardCount">0 / 24</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
 
-      <button type="submit">Submit</button>
-    </form>
+      <div class="name-field">
+        <label id="nameLabel" for="nameInput"></label>
+        <input type="text" id="nameInput" autocomplete="name" />
+      </div>
+    </div>
+  </header>
 
-    <div class="output" id="output"></div>
+  <main class="wrap">
+    <div class="prompt-list" id="promptList">
+      <div class="loading">Loading…</div>
+    </div>
+  </main>
+
+  <div class="submit-bar">
+    <div class="submit-inner">
+      <button class="submit-btn" id="submitBtn" type="button" disabled></button>
+      <div class="status-msg" id="statusMsg"></div>
+    </div>
   </div>
 
-  <script>
-    const form = document.getElementById("myForm");
-    const output = document.getElementById("output");
+</div>
 
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-
-      const name = document.getElementById("name").value.trim();
-      const language = document.getElementById("language").value;
-
-      if (name && language) {
-        output.textContent = `Hello, ${name}! You selected ${language}.`;
-      } else {
-        output.textContent = "Please enter your name and choose a language.";
-      }
-    });
-  </script>
+<script src="script.js"></script>
 </body>
 </html>

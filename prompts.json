@@ -1,0 +1,554 @@
+{
+  "prompts": [
+    {
+      "id": "01",
+      "en": {
+        "title": "Key change",
+        "description": "The song shifts up a key, usually right before the final chorus"
+      },
+      "de": {
+        "title": "Tonartwechsel",
+        "description": "Der Song wechselt vor dem letzten Refrain in eine höhere Tonart"
+      }
+    },
+    {
+      "id": "02",
+      "en": {
+        "title": "Wind machine",
+        "description": "A fan blows hair or fabric dramatically on stage"
+      },
+      "de": {
+        "title": "Windmaschine",
+        "description": "Ein Ventilator lässt Haare oder Stoff dramatisch wehen"
+      }
+    },
+    {
+      "id": "03",
+      "en": {
+        "title": "Barefoot performer",
+        "description": "Someone performs without shoes"
+      },
+      "de": {
+        "title": "Barfuß auf der Bühne",
+        "description": "Jemand tritt ohne Schuhe auf"
+      }
+    },
+    {
+      "id": "04",
+      "en": {
+        "title": "Flag cape",
+        "description": "A performer or fan wears a flag as a cape"
+      },
+      "de": {
+        "title": "Flaggenumhang",
+        "description": "Ein Act oder Fan trägt eine Flagge als Umhang"
+      }
+    },
+    {
+      "id": "05",
+      "en": {
+        "title": "Dancer lift",
+        "description": "A dancer is lifted overhead during the performance"
+      },
+      "de": {
+        "title": "Hebefigur",
+        "description": "Eine Tänzerin oder ein Tänzer wird über Kopf gehoben"
+      }
+    },
+    {
+      "id": "06",
+      "en": {
+        "title": "Scream after key change",
+        "description": "A high note follows immediately after a key change"
+      },
+      "de": {
+        "title": "Schrei nach Tonartwechsel",
+        "description": "Ein hoher Ton folgt direkt auf den Tonartwechsel"
+      }
+    },
+    {
+      "id": "07",
+      "en": {
+        "title": "Pyrotechnics",
+        "description": "Fire, sparks, or flames appear on stage"
+      },
+      "de": {
+        "title": "Feuerwerk auf der Bühne",
+        "description": "Flammen, Funken oder Feuer erscheinen"
+      }
+    },
+    {
+      "id": "08",
+      "en": {
+        "title": "Rain on stage",
+        "description": "An artificial rain effect appears during the performance"
+      },
+      "de": {
+        "title": "Regen auf der Bühne",
+        "description": "Ein künstlicher Regeneffekt begleitet den Auftritt"
+      }
+    },
+    {
+      "id": "09",
+      "en": {
+        "title": "Costume reveal",
+        "description": "A performer rips off part of their outfit mid-song"
+      },
+      "de": {
+        "title": "Kostüm-Enthüllung",
+        "description": "Ein Teil des Outfits wird während des Songs abgerissen"
+      }
+    },
+    {
+      "id": "10",
+      "en": {
+        "title": "Language mix",
+        "description": "The song switches between two or more languages"
+      },
+      "de": {
+        "title": "Sprachmix",
+        "description": "Der Song wechselt zwischen zwei oder mehr Sprachen"
+      }
+    },
+    {
+      "id": "11",
+      "en": {
+        "title": "Douze points chant",
+        "description": "The audience or hosts chant \"douze points\""
+      },
+      "de": {
+        "title": "Douze-Points-Ruf",
+        "description": "Publikum oder Moderation rufen \"douze points\""
+      }
+    },
+    {
+      "id": "12",
+      "en": {
+        "title": "Running order chaos",
+        "description": "A presenter fumbles or has to correct the running order"
+      },
+      "de": {
+        "title": "Chaos bei der Startreihenfolge",
+        "description": "Ein Moderator verhaspelt oder korrigiert die Reihenfolge"
+      }
+    },
+    {
+      "id": "13",
+      "en": {
+        "title": "Neighbourly votes",
+        "description": "A country gives full points to a bordering country"
+      },
+      "de": {
+        "title": "Nachbar-Stimmen",
+        "description": "Ein Land gibt die volle Punktzahl an ein Nachbarland"
+      }
+    },
+    {
+      "id": "14",
+      "en": {
+        "title": "Odd stage prop",
+        "description": "A large or bizarre prop appears, e.g. a wheel or a tractor"
+      },
+      "de": {
+        "title": "Kurioses Bühnenbild",
+        "description": "Ein großes oder skurriles Requisit taucht auf, z. B. ein Rad oder ein Traktor"
+      }
+    },
+    {
+      "id": "15",
+      "en": {
+        "title": "Drummer stands up",
+        "description": "A drummer leaves their kit to perform standing"
+      },
+      "de": {
+        "title": "Schlagzeuger steht auf",
+        "description": "Ein Schlagzeuger verlässt sein Set und spielt im Stehen"
+      }
+    },
+    {
+      "id": "16",
+      "en": {
+        "title": "Nul points joke",
+        "description": "Someone jokes about scoring zero points"
+      },
+      "de": {
+        "title": "Nul-Points-Witz",
+        "description": "Jemand macht einen Scherz über null Punkte"
+      }
+    },
+    {
+      "id": "17",
+      "en": {
+        "title": "Camera fail",
+        "description": "A camera visibly misses its cue or shows the wrong shot"
+      },
+      "de": {
+        "title": "Kamerapanne",
+        "description": "Eine Kamera verpasst sichtbar ihr Stichwort oder zeigt das Falsche"
+      }
+    },
+    {
+      "id": "18",
+      "en": {
+        "title": "Interval act runs long",
+        "description": "A postcard or interval performance overruns"
+      },
+      "de": {
+        "title": "Verlängerte Pause",
+        "description": "Eine Postkarte oder Pausen-Show zieht sich in die Länge"
+      }
+    },
+    {
+      "id": "19",
+      "en": {
+        "title": "Political statement",
+        "description": "A performer makes a subtle political gesture"
+      },
+      "de": {
+        "title": "Politisches Statement",
+        "description": "Ein Act macht eine subtile politische Geste"
+      }
+    },
+    {
+      "id": "20",
+      "en": {
+        "title": "Group hug",
+        "description": "Performers embrace at the end of their song"
+      },
+      "de": {
+        "title": "Gruppenumarmung",
+        "description": "Die Performer umarmen sich am Ende des Songs"
+      }
+    },
+    {
+      "id": "21",
+      "en": {
+        "title": "Forgotten lyrics",
+        "description": "A performer visibly forgets or fumbles their lyrics"
+      },
+      "de": {
+        "title": "Textaussetzer",
+        "description": "Jemand vergisst sichtbar den Text"
+      }
+    },
+    {
+      "id": "22",
+      "en": {
+        "title": "Backing vocalist spotlight",
+        "description": "A backing singer gets a clear solo moment"
+      },
+      "de": {
+        "title": "Backgroundsängerin im Rampenlicht",
+        "description": "Eine Backgroundstimme bekommt einen klaren Solomoment"
+      }
+    },
+    {
+      "id": "23",
+      "en": {
+        "title": "Sign language",
+        "description": "Part of the performance includes sign language interpretation"
+      },
+      "de": {
+        "title": "Gebärdensprache",
+        "description": "Teile der Show werden in Gebärdensprache gedolmetscht"
+      }
+    },
+    {
+      "id": "24",
+      "en": {
+        "title": "Giant flag in the crowd",
+        "description": "A huge flag is unfurled in the audience"
+      },
+      "de": {
+        "title": "Riesenflagge im Publikum",
+        "description": "Eine riesige Flagge wird im Publikum entrollt"
+      }
+    },
+    {
+      "id": "25",
+      "en": {
+        "title": "Confetti cannon",
+        "description": "Confetti or streamers shoot from the stage"
+      },
+      "de": {
+        "title": "Konfettikanone",
+        "description": "Konfetti oder Luftschlangen schießen von der Bühne"
+      }
+    },
+    {
+      "id": "26",
+      "en": {
+        "title": "Ballad's big note",
+        "description": "A slow song builds to one enormous final note"
+      },
+      "de": {
+        "title": "Große Ballade-Note",
+        "description": "Ein langsamer Song endet in einem gewaltigen letzten Ton"
+      }
+    },
+    {
+      "id": "27",
+      "en": {
+        "title": "Three costume changes",
+        "description": "A performer changes outfits more than twice"
+      },
+      "de": {
+        "title": "Drei Kostümwechsel",
+        "description": "Ein Act wechselt mehr als zweimal das Outfit"
+      }
+    },
+    {
+      "id": "28",
+      "en": {
+        "title": "Jury technical difficulty",
+        "description": "A jury spokesperson has a video or audio glitch"
+      },
+      "de": {
+        "title": "Jury-Technikpanne",
+        "description": "Eine Jurysprecherin hat einen Video- oder Tonaussetzer"
+      }
+    },
+    {
+      "id": "29",
+      "en": {
+        "title": "Host in-joke",
+        "description": "The hosts make a joke referencing a previous contest"
+      },
+      "de": {
+        "title": "Insider-Witz der Moderation",
+        "description": "Die Moderation macht einen Scherz über einen früheren Contest"
+      }
+    },
+    {
+      "id": "30",
+      "en": {
+        "title": "Fan-made choreography",
+        "description": "A dance move clearly designed to go viral online"
+      },
+      "de": {
+        "title": "Fanchoreografie",
+        "description": "Eine Tanzbewegung, die klar fürs Internet gemacht ist"
+      }
+    },
+    {
+      "id": "31",
+      "en": {
+        "title": "Unusual instrument",
+        "description": "An unconventional instrument features prominently"
+      },
+      "de": {
+        "title": "Ungewöhnliches Instrument",
+        "description": "Ein untypisches Instrument steht im Mittelpunkt"
+      }
+    },
+    {
+      "id": "32",
+      "en": {
+        "title": "Smoke machine overload",
+        "description": "So much stage smoke it obscures the performers"
+      },
+      "de": {
+        "title": "Nebelmaschinen-Overkill",
+        "description": "So viel Bühnennebel, dass man die Acts kaum sieht"
+      }
+    },
+    {
+      "id": "33",
+      "en": {
+        "title": "Near-stumble",
+        "description": "A dancer stumbles or nearly falls during choreography"
+      },
+      "de": {
+        "title": "Fast-Stolperer",
+        "description": "Eine Tänzerin oder ein Tänzer strauchelt fast bei der Choreografie"
+      }
+    },
+    {
+      "id": "34",
+      "en": {
+        "title": "National costume",
+        "description": "Traditional or folk-inspired clothing appears on stage"
+      },
+      "de": {
+        "title": "Nationaltracht",
+        "description": "Traditionelle oder folkloristische Kleidung ist auf der Bühne zu sehen"
+      }
+    },
+    {
+      "id": "35",
+      "en": {
+        "title": "Green room reaction",
+        "description": "A delegation's reaction shot becomes a talking point"
+      },
+      "de": {
+        "title": "Green-Room-Reaktion",
+        "description": "Die Reaktion einer Delegation wird zum Gesprächsthema"
+      }
+    },
+    {
+      "id": "36",
+      "en": {
+        "title": "Empty stage moment",
+        "description": "A performer stands alone with no props or dancers"
+      },
+      "de": {
+        "title": "Leere Bühne",
+        "description": "Ein Act steht allein, ganz ohne Requisiten oder Tänzer"
+      }
+    },
+    {
+      "id": "37",
+      "en": {
+        "title": "Extreme close-up",
+        "description": "A camera lingers in an unusually tight close-up"
+      },
+      "de": {
+        "title": "Extreme Nahaufnahme",
+        "description": "Eine Kamera verharrt ungewöhnlich nah im Gesicht"
+      }
+    },
+    {
+      "id": "38",
+      "en": {
+        "title": "Points reading mistake",
+        "description": "A spokesperson mispronounces or corrects the points"
+      },
+      "de": {
+        "title": "Verlesen der Punkte",
+        "description": "Ein Sprecher verspricht sich oder korrigiert die Punktzahl"
+      }
+    },
+    {
+      "id": "39",
+      "en": {
+        "title": "Surprise instrumental solo",
+        "description": "A saxophone, bagpipe, or similar solo breaks out"
+      },
+      "de": {
+        "title": "Überraschendes Instrumentalsolo",
+        "description": "Ein Saxofon-, Dudelsack- oder ähnliches Solo bricht aus"
+      }
+    },
+    {
+      "id": "40",
+      "en": {
+        "title": "Audience mirrors the dance",
+        "description": "The crowd is shown copying a dance move"
+      },
+      "de": {
+        "title": "Publikum tanzt mit",
+        "description": "Die Kamera zeigt, wie das Publikum die Choreografie mittanzt"
+      }
+    },
+    {
+      "id": "41",
+      "en": {
+        "title": "Slow-motion replay",
+        "description": "The broadcast shows a moment again in slow motion"
+      },
+      "de": {
+        "title": "Zeitlupenwiederholung",
+        "description": "Die Übertragung zeigt einen Moment erneut in Zeitlupe"
+      }
+    },
+    {
+      "id": "42",
+      "en": {
+        "title": "Fireworks finale",
+        "description": "Fireworks appear during a country's performance"
+      },
+      "de": {
+        "title": "Feuerwerksfinale",
+        "description": "Feuerwerk begleitet den Auftritt eines Landes"
+      }
+    },
+    {
+      "id": "43",
+      "en": {
+        "title": "Unusual footwear",
+        "description": "Platform boots or elaborate shoes are shown on camera"
+      },
+      "de": {
+        "title": "Ausgefallenes Schuhwerk",
+        "description": "Plateaustiefel oder aufwendige Schuhe sind zu sehen"
+      }
+    },
+    {
+      "id": "44",
+      "en": {
+        "title": "Duet chemistry",
+        "description": "Two performers share a clearly romantic-coded moment"
+      },
+      "de": {
+        "title": "Duett-Chemie",
+        "description": "Zwei Performer haben einen klar romantisch angehauchten Moment"
+      }
+    },
+    {
+      "id": "45",
+      "en": {
+        "title": "Stage trapdoor",
+        "description": "Someone appears from or disappears into the stage floor"
+      },
+      "de": {
+        "title": "Bühnenfalltür",
+        "description": "Jemand erscheint aus dem Boden oder verschwindet darin"
+      }
+    },
+    {
+      "id": "46",
+      "en": {
+        "title": "Dancer costume malfunction",
+        "description": "A backing dancer's outfit shifts or slips"
+      },
+      "de": {
+        "title": "Kostümmalheur bei Tänzern",
+        "description": "Das Outfit einer Tänzerin oder eines Tänzers verrutscht"
+      }
+    },
+    {
+      "id": "47",
+      "en": {
+        "title": "Comment on running time",
+        "description": "A host jokes about how long the show is"
+      },
+      "de": {
+        "title": "Kommentar zur Sendezeit",
+        "description": "Die Moderation witzelt über die Länge der Show"
+      }
+    },
+    {
+      "id": "48",
+      "en": {
+        "title": "Scoreboard tie",
+        "description": "Two countries are tied on the leaderboard at some point"
+      },
+      "de": {
+        "title": "Gleichstand auf der Anzeigetafel",
+        "description": "Zwei Länder liegen zwischenzeitlich gleichauf"
+      }
+    },
+    {
+      "id": "49",
+      "en": {
+        "title": "Winner's reprise",
+        "description": "The winning song is performed again after the results"
+      },
+      "de": {
+        "title": "Reprise des Gewinnersongs",
+        "description": "Der Siegersong wird nach der Punktevergabe erneut gespielt"
+      }
+    },
+    {
+      "id": "50",
+      "en": {
+        "title": "Crowd reach",
+        "description": "A performer goes into or reaches toward the crowd"
+      },
+      "de": {
+        "title": "Publikumsnähe",
+        "description": "Ein Act geht ins Publikum oder streckt sich danach aus"
+      }
+    }
+  ]
+}
