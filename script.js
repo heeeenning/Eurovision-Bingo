@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 
 // Replace with your real Formspree endpoint, e.g. "https://formspree.io/f/abcd1234"
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/meajpbja";
 
 // How many prompts a participant must select
 const TARGET_COUNT = 24;
@@ -28,7 +28,7 @@ const UI_STRINGS = {
   },
   de: {
     title: "Eurovision Bingo",
-    eyebrow: "Wähle deine Prompts",
+    eyebrow: "Wähle deine Felder",
     scoreboardLabel: "Ausgewählt",
     nameLabel: "Dein Name",
     namePlaceholder: "Namen eingeben",
@@ -37,7 +37,7 @@ const UI_STRINGS = {
     submitReady: "Karte abschicken",
     submitting: "Wird gesendet…",
     errorGeneric: "Beim Senden ist etwas schiefgelaufen. Bitte nochmal versuchen.",
-    errorLoad: "Die Prompt-Liste konnte nicht geladen werden. Bitte Seite neu laden.",
+    errorLoad: "Die Felder-Liste konnte nicht geladen werden. Bitte Seite neu laden.",
     successTitle: "Du bist dabei!",
     successBody: (name, n) => `Danke ${name}, deine ${n} Auswahlen wurden gespeichert.`,
   },
