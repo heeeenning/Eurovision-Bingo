@@ -4,7 +4,7 @@
 
 // Replace with your real Formspree endpoints.
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/meajpbja"; // bingo picks
-const PREDICTIONS_FORMSPREE_ENDPOINT = "https://formspree.io/f/meajpbja"; // predictions
+const PREDICTIONS_FORMSPREE_ENDPOINT = "https://formspree.io/f/xljrzopq"; // predictions
 
 // How many prompts a participant must select for bingo
 const TARGET_COUNT = 24;
