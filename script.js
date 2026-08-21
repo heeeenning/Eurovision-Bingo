@@ -369,11 +369,9 @@ async function handleBingoSubmit() {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
-        type: "bingo",
         name: name,
         language: state.lang,
-        selected_ids: ids.join(","),
-        count: ids.length,
+        selected_ids: ids.join(",")
       }),
     });
 
@@ -549,18 +547,17 @@ async function handlePredictionsSubmit() {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
-        type: "predictions",
         name: name,
-        language: state.lang,
-        winner: state.predictions.winner,
-        place_2: state.predictions.place2,
-        place_3: state.predictions.place3,
-        place_4: state.predictions.place4,
-        place_5: state.predictions.place5,
-        last_place: state.predictions.last,
-        jury_winner: state.predictions.jury,
-        televote_winner: state.predictions.televote,
-        germany_position: state.predictions.germanyPos,
+        predictions: [
+          state.predictions.winner,
+          state.predictions.place2,
+          state.predictions.place3,
+          state.predictions.place4,
+          state.predictions.place5,
+          state.predictions.last,
+          state.predictions.jury,
+          state.predictions.televote,
+          state.predictions.germanyPos].join(","),
       }),
     });
 
