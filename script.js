@@ -14,8 +14,8 @@ const TARGET_COUNT = 24;
 // Use ISO 8601 with an explicit UTC offset so this fires at the same
 // real-world moment for every visitor, regardless of their own timezone
 // setting (Germany is +02:00 during CEST / summer time).
-const BINGO_CLOSE_AT = "2026-08-21T09:20:00+02:00";
-const PREDICTIONS_OPEN_AT = "2026-08-21T09:25:00+02:00";
+const BINGO_CLOSE_AT = "2026-08-21T10:20:00+02:00";
+const PREDICTIONS_OPEN_AT = "2026-08-21T10:40:00+02:00";
 
 // How often (ms) to recheck the time, so the page switches phases on its own
 // for anyone who leaves the tab open across the cutoff — no refresh needed.
