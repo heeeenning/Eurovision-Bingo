@@ -1,0 +1,242 @@
+{
+  "countries": [
+    {
+      "id": "01",
+      "en": {
+        "country": "Albania",
+        "song": "Nan",
+        "artist": "Alis"
+      },
+      "de": {
+        "country": "Albanien",
+        "song": "Nan",
+        "artist": "Alis"
+      }
+    },
+    {
+      "id": "02",
+      "en": {
+        "country": "Armenia"
+      },
+      "de": {
+        "country": "Armenien"
+      }
+    },
+    {
+      "id": "03",
+      "en": {
+        "country": "Australia"
+      },
+      "de": {
+        "country": "Australien"
+      }
+    },
+    {
+      "id": "04",
+      "en": {
+        "country": "Bulgaria"
+      },
+      "de": {
+        "country": "Bulgarien"
+      }
+    },
+    {
+      "id": "05",
+      "en": {
+        "country": "Belgium"
+      },
+      "de": {
+        "country": "Belgien"
+      }
+    },
+    {
+      "id": "06",
+      "en": {
+        "country": "Croatia"
+      },
+      "de": {
+        "country": "Kroatien"
+      }
+    },
+    {
+      "id": "07",
+      "en": {
+        "country": "Denmark"
+      },
+      "de": {
+        "country": "Dänemark"
+      }
+    },
+    {
+      "id": "08",
+      "en": {
+        "country": "Estonia"
+      },
+      "de": {
+        "country": "Estland"
+      }
+    },
+    {
+      "id": "09",
+      "en": {
+        "country": "Finland"
+      },
+      "de": {
+        "country": "Finnland"
+      }
+    },
+    {
+      "id": "10",
+      "en": {
+        "country": "Georgia"
+      },
+      "de": {
+        "country": "Georgien"
+      }
+    },
+    {
+      "id": "11",
+      "en": {
+        "country": "Germany"
+      },
+      "de": {
+        "country": "Deutschland"
+      }
+    },
+    {
+      "id": "12",
+      "en": {
+        "country": "France"
+      },
+      "de": {
+        "country": "Frankreich"
+      }
+    },
+    {
+      "id": "13",
+      "en": {
+        "country": "Italy"
+      },
+      "de": {
+        "country": "Italien"
+      }
+    },
+    {
+      "id": "14",
+      "en": {
+        "country": "Montenegro"
+      },
+      "de": {
+        "country": "Montenegro"
+      }
+    },
+    {
+      "id": "15",
+      "en": {
+        "country": "Sweden"
+      },
+      "de": {
+        "country": "Schweden"
+      }
+    },
+    {
+      "id": "16",
+      "en": {
+        "country": "Norway"
+      },
+      "de": {
+        "country": "Norwegen"
+      }
+    },
+    {
+      "id": "17",
+      "en": {
+        "country": "Romania"
+      },
+      "de": {
+        "country": "Rumänien"
+      }
+    },
+    {
+      "id": "18",
+      "en": {
+        "country": "Ukraine"
+      },
+      "de": {
+        "country": "Ukraine"
+      }
+    },
+    {
+      "id": "19",
+      "en": {
+        "country": "Czechia"
+      },
+      "de": {
+        "country": "Tschechien"
+      }
+    },
+    {
+      "id": "20",
+      "en": {
+        "country": "Poland"
+      },
+      "de": {
+        "country": "Polen"
+      }
+    },
+    {
+      "id": "21",
+      "en": {
+        "country": "Switzerland"
+      },
+      "de": {
+        "country": "Schweiz"
+      }
+    },
+    {
+      "id": "22",
+      "en": {
+        "country": "United Kingdom"
+      },
+      "de": {
+        "country": "Großbritannien"
+      }
+    },
+    {
+      "id": "23",
+      "en": {
+        "country": "Canada"
+      },
+      "de": {
+        "country": "Kanada"
+      }
+    },
+    {
+      "id": "24",
+      "en": {
+        "country": "Portugal"
+      },
+      "de": {
+        "country": "Portugal"
+      }
+    },
+    {
+      "id": "25",
+      "en": {
+        "country": "Malta"
+      },
+      "de": {
+        "country": "Malta"
+      }
+    },
+    {
+      "id": "26",
+      "en": {
+        "country": "San Marino"
+      },
+      "de": {
+        "country": "San Marino"
+      }
+    }
+  ]
+}

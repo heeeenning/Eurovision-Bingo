@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="scoreboard">
+      <div class="scoreboard" id="scoreboard">
         <div class="scoreboard-top">
           <span class="scoreboard-label" id="scoreboardLabel"></span>
           <span class="scoreboard-count" id="scoreboardCount">0 / 24</span>
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="name-field">
+      <div class="name-field" id="nameField">
         <label id="nameLabel" for="nameInput"></label>
         <input type="text" id="nameInput" autocomplete="name" />
       </div>
@@ -42,9 +42,13 @@
     <div class="prompt-list" id="promptList">
       <div class="loading">Loading…</div>
     </div>
+
+    <div class="closed-panel" id="closedPanel" hidden></div>
+
+    <div class="predictions-form" id="predictionsForm" hidden></div>
   </main>
 
-  <div class="submit-bar">
+  <div class="submit-bar" id="submitBar">
     <div class="submit-inner">
       <button class="submit-btn" id="submitBtn" type="button" disabled></button>
       <div class="status-msg" id="statusMsg"></div>

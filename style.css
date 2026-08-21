@@ -194,6 +194,66 @@ h1 {
   outline-offset: 1px;
 }
 
+/* dropdown fields (predictions page) */
+
+.field-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.select-field label {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.select-field select {
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 11px 40px 11px 14px;
+  color: var(--text);
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239c93c4' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.select-field select:focus {
+  outline: 2px solid var(--cyan);
+  outline-offset: 1px;
+}
+
+.select-field select.filled {
+  border-color: var(--pink);
+}
+
+/* link styled as a button, used on the bingo-closed message */
+
+.link-btn {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  padding: 14px 28px;
+  border-radius: 12px;
+  background: var(--gold);
+  color: #1a1030;
+  text-decoration: none;
+}
+
 /* ---------- Prompt list ---------- */
 
 .prompt-list {
@@ -353,6 +413,59 @@ h1 {
 
 .success-panel p {
   color: var(--text-muted);
+}
+
+/* ---------- Predictions form ---------- */
+
+.field-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+
+.field-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.field-select {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: var(--text);
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--cyan) 50%), linear-gradient(135deg, var(--cyan) 50%, transparent 50%);
+  background-position: calc(100% - 18px) center, calc(100% - 13px) center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.field-select:focus {
+  outline: 2px solid var(--cyan);
+  outline-offset: 1px;
+}
+
+.field-select option {
+  background: var(--surface);
+  color: var(--text);
+}
+
+/* ---------- Closed panel ---------- */
+
+.closed-panel .success-panel {
+  padding-top: 40px;
 }
 
 /* ---------- Misc ---------- */
