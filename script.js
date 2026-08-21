@@ -41,8 +41,8 @@ const TOP5_FIELD_KEYS = ["winner", "place2", "place3", "place4", "place5"];
 
 const UI_STRINGS = {
   en: {
-    title: "Eurovision Bingo",
-    eyebrowBingo: "Pick your prompts",
+    title: "Eurovision Watch Party",
+    eyebrowBingo: "Pick your Bingo prompts",
     eyebrowClosed: "Submissions",
     eyebrowPredictions: "Enter your predictions",
     scoreboardLabel: "Selected",
@@ -58,8 +58,8 @@ const UI_STRINGS = {
     successTitle: "You're in!",
     successBody: (name, n) => `Thanks ${name}, your ${n} picks are saved.`,
     closedTitle: "Submissions closed",
-    closedBody: "Sorry, submission time is over.",
-    closedBodyGap: (timeStr) => `Sorry, submission time is over. Predictions open at ${timeStr}.`,
+    closedBody: "Sorry, Bingo submission time is over. Contact me please!",
+    closedBodyGap: (timeStr) => `Sorry, Bingo submission time is over. Please contact me directly. Predictions open soon: ${timeStr}.`,
     fieldWinner: "Winner",
     field2nd: "2nd place",
     field3rd: "3rd place",
@@ -75,8 +75,8 @@ const UI_STRINGS = {
     predictionsSuccessBody: (name) => `Thanks ${name}, your predictions are saved.`,
   },
   de: {
-    title: "Eurovision Bingo",
-    eyebrowBingo: "Wähle deine Felder",
+    title: "Eurovision Watch Party",
+    eyebrowBingo: "Wähle deine Bingo Felder",
     eyebrowClosed: "Abgabe",
     eyebrowPredictions: "Gib deine Prognose ab",
     scoreboardLabel: "Ausgewählt",
@@ -90,10 +90,10 @@ const UI_STRINGS = {
     errorLoad: "Die Felder-Liste konnte nicht geladen werden. Bitte Seite neu laden.",
     errorLoadCountries: "Die Länderliste konnte nicht geladen werden. Bitte Seite neu laden.",
     successTitle: "Du bist dabei!",
-    successBody: (name, n) => `Danke ${name}, deine ${n} Auswahlen wurden gespeichert.`,
+    successBody: (name, n) => `Danke ${name}, deine ${n} Auswahl wurde gespeichert.`,
     closedTitle: "Abgabe beendet",
-    closedBody: "Tut uns leid, die Abgabefrist ist vorbei.",
-    closedBodyGap: (timeStr) => `Tut uns leid, die Abgabefrist ist vorbei. Die Prognose-Abgabe öffnet um ${timeStr}.`,
+    closedBody: "Tut mir leid, die Abgabefrist ist vorbei. Bitte kontaktiere mich.",
+    closedBodyGap: (timeStr) => `Tut mir leid, die Abgabefrist ist vorbei. Bitte kontaktiere mich direkt. Die Prognose-Abgabe öffnet bald: ${timeStr}.`,
     fieldWinner: "Sieger",
     field2nd: "2. Platz",
     field3rd: "3. Platz",
@@ -106,7 +106,7 @@ const UI_STRINGS = {
     selectPlaceholder: "— auswählen —",
     predictionsSubmitIncomplete: "Bitte alle Felder ausfüllen",
     predictionsSubmitReady: "Prognose abschicken",
-    predictionsSuccessBody: (name) => `Danke ${name}, deine Prognose wurde gespeichert.`,
+    predictionsSuccessBody: (name) => `Danke ${name}, deine Prognosen wurden gespeichert.`,
   },
 };
 
